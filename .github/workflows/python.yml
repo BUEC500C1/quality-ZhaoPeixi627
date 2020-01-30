@@ -28,13 +28,13 @@ jobs:
 
         python-version: 3.x
 
-    - name: Install dependencies
+#     - name: Install dependencies
 
-      run: |
+#       run: |
 
-        python3 -m pip install --upgrade pip
+#         python3 -m pip install --upgrade pip
 
-        pip install -r requirements.txt
+#         pip install -r requirements.txt
 
     - name: Lint with flake8
 
