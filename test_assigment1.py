@@ -6,4 +6,4 @@ def test_arabicToRoman():
     assert arabicToRoman(2) == 'III'  
     assert arabicToRoman(3999) == 'MMMCMXCIX'
     assert arabicToRoman(123) == 'CXXIII' 
-    assert to_roman(4) == 'IV'
+    assert arabicToRoman(4) == 'IV'
